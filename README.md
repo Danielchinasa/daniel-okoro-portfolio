@@ -77,15 +77,6 @@ src/
 
 ---
 
-## 🧩 Customization
-
-- Update your content in the respective components (`Hero.js`, `About.js`, etc.)
-- Add your projects and skills in `/data/projects.js` and `/data/skills.js`
-- Modify styles using PrimeReact themes or CSS overrides
-- Deploy with [Vercel](https://vercel.com/), [Netlify](https://netlify.com/), or GitHub Pages
-
----
-
 ## 📦 Deployment
 
 You can easily deploy using:
@@ -106,9 +97,9 @@ Upload the contents of the `build/` folder to your hosting provider or connect y
 
 **Daniel Chinasa Okoro**  
 Fullstack Software Engineer | Mobile Developer | Founder of Cornerpis  
-🇳🇬 Based in Nigeria | 💍 Engaged to Grace Oyiza  
+🇳🇬 Based in Nigeria
 🔗 [LinkedIn](https://linkedin.com/in/danielchinasa)  
-📧 daniel@example.com _(replace with your email)_
+📧 danielochinasa@example.com
 
 ---
 
