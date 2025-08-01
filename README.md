@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 💼 Daniel Okoro – Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with **React** and **PrimeReact** to showcase my skills, projects, experience, and contact information as a fullstack software engineer and mobile app developer.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+🌐 [Visit Portfolio](https://yourdomain.com) _(replace with your domain)_
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React](https://reactjs.org/)
+- [PrimeReact](https://primereact.org/) – UI components
+- [PrimeIcons](https://primefaces.org/primereact/icons/)
+- [PrimeFlex](https://primefaces.org/primeflex/) – optional utility classes
+- [React Router](https://reactrouter.com/) – for routing (if applicable)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📸 Features
 
-### `npm run build`
+- 🔹 Clean and modern UI with PrimeReact components
+- 🔹 Responsive layout for mobile and desktop
+- 🔹 Dynamic project and skills sections
+- 🔹 Smooth navigation between sections
+- 🔹 Contact form (optional backend integration)
+- 🔹 Easy theme customization
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧱 Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+src/
+│
+├── components/
+│   ├── Navbar.js
+│   ├── Hero.js
+│   ├── About.js
+│   ├── Skills.js
+│   ├── Projects.js
+│   └── Contact.js
+│
+├── data/
+│   ├── projects.js
+│   └── skills.js
+│
+├── App.js
+└── index.js
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🖥️ Installation & Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone this repository**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/yourusername/portfolio-site.git
+   cd portfolio-site
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install dependencies**
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Start development server**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+4. Open [http://localhost:3000](http://localhost:3000) to view in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🧩 Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Update your content in the respective components (`Hero.js`, `About.js`, etc.)
+- Add your projects and skills in `/data/projects.js` and `/data/skills.js`
+- Modify styles using PrimeReact themes or CSS overrides
+- Deploy with [Vercel](https://vercel.com/), [Netlify](https://netlify.com/), or GitHub Pages
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📦 Deployment
 
-### Advanced Configuration
+You can easily deploy using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm run build
+```
 
-### Deployment
+Upload the contents of the `build/` folder to your hosting provider or connect your GitHub repo to services like:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [Vercel](https://vercel.com/)
+- [Netlify](https://netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙋‍♂️ About Me
+
+**Daniel Chinasa Okoro**  
+Fullstack Software Engineer | Mobile Developer | Founder of Cornerpis  
+🇳🇬 Based in Nigeria | 💍 Engaged to Grace Oyiza  
+🔗 [LinkedIn](https://linkedin.com/in/danielchinasa)  
+📧 daniel@example.com _(replace with your email)_
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+> Designed with ❤️ using React & PrimeReact
